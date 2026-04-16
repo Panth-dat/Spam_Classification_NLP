@@ -1,6 +1,7 @@
 streamlit
 scikit-learn
-nltk
+ltk
 joblib
 pandas
 numpy
+streamlit-serverless

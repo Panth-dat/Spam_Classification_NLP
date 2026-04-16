@@ -1,0 +1,20 @@
+{
+  "build": {
+    "env": {
+      "NLTK_DATA": "."
+    }
+  },
+  "functions": {
+    "api/index.py": {
+      "runtime": "python3.9",
+      "memory": 1024,
+      "maxDuration": 30
+    }
+  },
+  "routes": [
+    {
+      "src": "/.*",
+      "dest": "/api/index.py"
+    }
+  ]
+}
